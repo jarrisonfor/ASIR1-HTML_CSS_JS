@@ -1,0 +1,128 @@
+* {
+    transition: 0.5s;
+    z-index: 1;
+}
+
+body {
+    text-align: center;
+}
+
+body > div {
+    box-shadow: 1px 1px 10px;
+}
+
+.ib,
+span {
+    display: inline-block;
+    text-align: center;
+}
+
+span {
+    width: 100px;
+    height: 100%;
+    padding: 10px
+}
+
+.ibt {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.b {
+    display: block;
+}
+
+
+.fila {
+    margin: 2.5px 5px;
+    text-align: left;
+}
+
+.recreo1 {
+    padding: 41px 10px
+}
+
+.recreo2,
+img {
+    width: 620px;
+    height: 101px;
+    padding: 0px;
+}
+
+.doble {
+    padding: 30.75px 10px
+}
+
+.triple {
+    padding: 51.5px 10px;
+}
+
+span.b.nada {
+    margin: 2.5px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/*colores*/
+
+.nada {
+    background-color: #808080;
+}
+
+.FUW {
+    background-color: #BEFF94;
+    margin: 2.5px 0;
+}
+
+.GTB {
+    background-color: #FF9494;
+    margin: 2.5px 0;
+}
+
+.IDP {
+    background-color: #94FFC5;
+    margin: 2.5px 0;
+}
+
+.LND {
+    background-color: #B6B6FF;
+    margin: 2.5px 0;
+}
+
+.LNT {
+    background-color: #FFD997;
+    margin: 2.5px 0;
+}
+
+.PNI {
+    background-color: #EEFF94;
+    margin: 2.5px 0;
+}
+
+.FOL {
+    background-color: #F497FF;
+    margin: 2.5px 0;
+}
+
+.GTB:hover,
+.PNI:hover,
+.FUW:hover,
+.LND:hover,
+.IDP:hover,
+.LNT:hover,
+.FOL:hover {
+    filter: invert(100%);
+    transform: scale(1.5);
+    z-index: 9000;
+    border-radius: 20px;
+}

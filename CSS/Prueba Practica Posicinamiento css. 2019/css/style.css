@@ -1,0 +1,101 @@
+* {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.principal {
+    display: inline-block;
+}
+
+
+/* fila superior */
+.semana .filas .dias {
+    color: white;
+    border: 0.1px solid gray;
+    margin: 5px 0 5px 0;
+}
+
+.semana {
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+
+.calendario {
+    padding: 0 0 2.5px 0;
+    margin: 0 0 10px 0;
+}
+
+.titulo {
+    color: white;
+    font-weight: bold;
+    background-color: #808080;
+    padding: 9px;
+    font-size: 3em
+}
+
+.filas {
+    margin: 5px;
+}
+
+.dias {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    padding: 33px 0 30px 0;
+    box-sizing: border-box;
+    font-size: 2em
+}
+
+.bordes {
+    border: 0.1px solid gray;
+}
+
+.sabado {
+    font-weight: bold;
+}
+
+.domingo {
+    color: red;
+    font-weight: bold;
+}
+
+/* imagenes de fondo */
+.enero {
+    background-image: url('../img/tenero.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.febrero {
+    background-image: url('../img/tfebrero.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.marzo {
+    background-image: url('../img/tmarzo.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.abril {
+    background-image: url('../img/tabril.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.mayo {
+    background-image: url('../img/tmayo.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.junio {
+    background-image: url('../img/tjunio.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,47 @@
+.contenedor,
+.cajas {
+    border-radius: 10px;
+ flex-grow: 1;
+}
+
+.contenedor {
+    background-color: lightgray;
+    height: 500px;
+    display: flex;
+}
+
+.cajas {
+    margin: 10px;
+        padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between
+}
+
+.caja1 {
+    background-color:lightblue;
+}
+
+.caja2 {
+    background-color:lightpink;
+}
+
+.caja3 {
+    background-color:lightsalmon;
+}
+
+.caja4 {
+    background-color:lightyellow;
+    flex-grow: 4;
+}
+
+.caja5 {
+    background-color:lavender;
+    
+}
+
+.contenido {
+    background-color: white;
+    padding: 25%;
+}

@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.principal > :first-child {
+    background-color: #3996CF;
+    color: white;
+}
+
+.principal > :nth-child(even) {
+    background-color: #EEF5FB;
+}
+
+.fila {
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid #3996CF;
+}
+
+.celda {
+    padding: 5px;
+    padding-top: 12px
+}
+
+.celda:not(:first-child) {
+    width: 10%;
+    text-align: center;
+}
+
+.celda:first-child {
+    flex-basis: 40%;
+}

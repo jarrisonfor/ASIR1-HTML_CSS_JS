@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+.principal {
+    display: inline-block;
+    width: 1200px;
+}
+
+.cabezera {
+    border: 1px solid grey;
+}
+
+.cabezera img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/* ------------MENUS----------*/
+
+.menu {
+    background-color: azure;
+    padding: 15px;
+    border: 1px solid grey;
+}
+
+.nivel1 a {
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.menu div {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.nivel1,
+.nivel2,
+.nivel3 {
+    display: inline-block;
+    position: relative;
+}
+
+li a {
+    background-color: azure;
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+    padding: 15px 0;
+    text-align: center;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    font-weight: bold;
+}
+
+li a:hover {
+    background-color: cadetblue;
+    color: azure;
+}
+
+li > ul,
+li > img {
+    display: none;
+}
+
+.nivel1:hover > ul {
+    display: inline-block;
+    position: absolute;
+    top: 55px;
+    left: 0;
+}
+
+.nivel2:hover > ul {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 150px;
+}
+
+.nivel3:hover > ul {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 150px;
+}
+
+
+/* ------------ CONTENIDO ----------*/
+
+
+.secundario {
+    border: 0.20px solid grey;
+}
+
+.secundario img {
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+.columnas {
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+    width: 10%;
+}
+
+.columnas div img {
+    width: 100px;
+    margin: 20% 1%;
+}
+
+.centro {
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 4.5%;
+}
+
+.centro div {
+    margin: 20px 0;
+}
+
+
+.centro div span img {
+    width: 256px
+}
+
+.bocadillo {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 3px 5px 5px;
+    font-size: 180%;
+}
+
+.bocadillo::before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    margin: -2px 0px 0px -1.76em;
+    border-bottom: 20px solid transparent;
+    border-right: 30px solid black;
+    border-top: 20px solid transparent;
+}
+
+.bocadillo2::after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    margin: -2px 0px 0px -18.3em;
+    border-bottom: 20px solid transparent;
+    border-right: 30px solid white;
+    border-top: 20px solid transparent;
+}
+
+.tabla {
+    margin: 30px 15px 30px 0;
+    border: 2px solid;
+    text-align: left;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 2px 4px;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.contenido {
+    text-align: justify;
+    padding: 10px;
+}
+
+.contenido span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.tabla .contenido span {
+    font-weight: bold;
+}
+
+.galeria {
+    width: 100%;
+    height: 720px;
+    border-radius: 15px;
+    background-image: url(../img/fondogaleria.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: left;
+    padding: 40px;
+    position: relative;
+}
+
+.galeria div img {
+    width: 10%;
+}
+
+.galeria div img + img {
+    width: 30%;
+    position: absolute;
+    bottom: 0;
+    right: 280px;
+    display: none;
+    filter: drop-shadow(0px 0px 0px black);
+}
+
+.galeria div img + span {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: 3px solid black;
+    width: 400px;
+    height: 160px;
+    position: absolute;
+    top: 10%;
+    left: 250px;
+    display: none;
+    text-align: justify;
+}
+
+.galeria div img:hover + img {
+    display: block;
+}
+
+.galeria div img:hover + img + span {
+    display: block;
+}
+
+iframe {
+    width: 100%;
+    height: 450px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 4px;
+    border: 0;
+}
+
+.pie {
+    text-align: center;
+    color: lightgrey;
+}
+
+/*inputs*/
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+
+input[type=text],
+input[type=email] {
+    width: 98%;
+    margin: 0px 0px 30px 0px;
+}
+
+textarea {
+    width: 98.5%;
+    height: 150px;
+}
+
+.botones {
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}

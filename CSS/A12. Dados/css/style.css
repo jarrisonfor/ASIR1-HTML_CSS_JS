@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+.contenedor {
+    height: 250px;
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cara {
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.cara1 {
+    justify-content: center;
+    align-items: center;
+}
+
+.cara4,
+.cara5,
+.cara6 {
+    flex-wrap: wrap;
+}
+
+.cara6 {
+    flex-direction: column;
+}
+
+.punto div {
+    width: 17px;
+    height: 17px;
+    background-color: #000;
+    border-radius: 500px;
+}
+
+.cara4 .punto {
+    width: 30px;
+}
+
+.pcara21,
+.pcara31 {
+    align-self: flex-start;
+}
+
+.pcara32 {
+    align-self: center;
+}
+
+.pcara22,
+.pcara33 {
+    align-self: flex-end;
+}
+
+.pcara42,
+.pcara44,
+.pcara53 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pcara53 {
+    width: 100%;
+    justify-content: center;
+}
