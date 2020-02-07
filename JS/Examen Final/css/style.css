@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+td {
+    width: 30px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.resultado {
+    background-color: blanchedalmond;
+}
